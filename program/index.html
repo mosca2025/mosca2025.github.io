@@ -23,6 +23,7 @@
         type="text/css"
         href=
         "../files/styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -123,7 +124,13 @@
   <td>14:00-15:00</td>
   <td>
   Corina Pasareanu<br>
-  <i>Symbolic Execution with Strings</i><br>
+  <i>Symbolic Execution with Strings</i>
+  <button type="button" id="corina">Show abstract</button>
+  <br>
+  <div id="corina_abstract" style='display: none;'>
+      Abstract:
+I plan to discuss the role of constraint solving and model counting for string constraints in the context of symbolic execution, with an application to side channel analysis.
+  </div>
   </td>
 </tr>
 
@@ -174,6 +181,14 @@
   <td>
   Artur Jez<br>
   <i>On Recompression for Word Equations</i>
+  <button type="button" id="artur">Show abstract</button>
+  <br>
+  <div id="artur_abstract" style='display: none;'>
+  Abstract:
+  A word equation is given by two strings over disjoint alphabets of letters and variables and we ask whether there is a substitution that makes the sides of the equation truly equal as strings. Recently, a new PSPACE solution to this problem was proposed, it is based on the recompression technique, which compresses simple substrings of the equation (compression of pairs ab by a new symbol c, where a ≠ b, and compression of maximal substrings a^l by a new symbol a_l) and modifying the equation so that such operations are sound; those modifications boil down to substitutions X → aX and X → Xb.
+
+The analysis focuses on the way the equation is stored and changed rather than on the combinatorics of words. This approach greatly simplified many existing proofs and algorithms. Moreover, it is also applicable to restricted cases (for instance: one-variable equations, but also compressed string testing) and to generalisations (regular constraints, involution, partial commutation, tree equations, etc.).
+  </div>
   </td>
   </td>
 </tr>
@@ -262,7 +277,22 @@
   <td>16:30-16:45</td>
   <td>
   Dmitry Chistikov<br>
-   <i>Re-pairing brackets</i><br>
+   <i>Re-pairing brackets</i>
+  <button type="button" id="dima">Show abstract</button>
+  <br>
+  <div id="dima_abstract" style='display: none;'>
+   Abstract:
+   Consider the following one-player game. Take a well-formed sequence of
+opening and closing brackets (a word in the Dyck language). As a move, the
+player can pair any opening bracket with any closing bracket to its right,
+erasing them. The goal is to re-pair (erase) the entire sequence, and the
+cost of a strategy is measured by its width: the maximum number of
+nonempty segments of symbols (separated by blank space) seen during the
+play.
+
+In the talk, I will discuss this re-pairing game and upper and lower
+bounds on the minimum width sufficient for re-pairing. I will also talk
+about connections between this game on strings and automata theory.
   </td>
   </tr>
 <tr style="background-color:#dff0d8">
@@ -278,7 +308,25 @@
  Ruzica Piskac <br>
   <i>
     Do real world users need string synthesis?
-  </i><br>
+  </i>
+  <button type="button" id="ruzica">Show abstract</button>
+  <br>
+  <div id="ruzica_abstract" style='display: none;'>
+    Abstract: Writing a scripts can be a tedious and error-prone task, especially
+for end users.  When requesting help, users will often continually
+provide more examples until their intentions are understood.
+Recognizing this, we developed an interactive programming by example
+framework, called StriSynth, that allows end-users to automatically
+generate stand-alone scripts by incrementally providing examples, and
+receive feedback throughout the process. To investigate the impact of
+StriSynth and programming by example paradigm on real-world users, we
+built a study around StriSynth, and recruited 27 working IT
+professionals to participate.  In our study we asked the users to
+complete three tasks with StriSynth, and the same three tasks with
+PowerShell, a traditional scripting language.  We found that, although
+our participants completed the tasks more quickly with StriSynth, they
+reported that they believed PowerShell to be a more helpful tool.
+  </div>
   </td>
   </tr>
 
@@ -299,6 +347,11 @@
   <td>
   Nestan Tsiskaridze<br>
   <i>Exploring what is decidable in strings with CVC4</i>
+  <button type="button" id="nestan">Show abstract</button>
+  <br>
+  <div id="nestan_abstract" style='display: none;'>
+Abstract: Identifying decidable fragments in the theory of strings has been a quest for researchers in both theoretical and practical avenues. The latter has become more of significant interest with the recent attempts in automating reasoning community to give the best effort towards the automation of reasoning over undecidable theories. A major difficulty in reasoning over strings is that, in general, the satisfiability problem of any reasonably comprehensive theory of character strings is undecidable. However, one can indicate several restricted, but still quite useful, fragments of the theory of strings that are decidable. Recent research on the string theory has focused on identifying decidable fragments suitable for automated analysis and developing efficient solvers for them. This talk presents our attempts towards the search for decidable fragments in the theory of string with the string calculus defined in CVC4. We will explore the approaches we tried to this extent and share where these efforts led us.
+  </div> 
   </td>
   </td>
 </tr>
@@ -307,6 +360,31 @@
   <td>
   Zhilin Wu<br>
   <i>Extending OSTRICH to integer data type</i>
+  <button type="button" id="zhilin">Show abstract</button>
+  <br>
+  <div id="zhilin_abstract" style='display: none;'>
+  Abstract:
+  OSTRICH is an expressive, easy, efficient, and extensible string solver 
+recently developed for path feasibility problem of string-manipulating 
+programs with complex string operations. The crux of OSTRICH is a simple 
+decision procedure which propagates the regular language constraints in 
+a backward manner via the regularity-preserving pre-image computation. 
+Nevertheless, although OSTRICH is expressive in the sense of string 
+operations involving only the string data type, it still does not 
+support the  operations involving both the string and integer data type, 
+e.g. string length, substring, and indexof functions. In this talk, I 
+will report our ongoing work to extend OSTRICH to integer data type. 
+This extension is built on integer cost register automata (ICRA), a 
+nondeterministic variant of cost register automata introduced by Alur 
+et. al. (LICS 2013), where the cost domain is interpreted as the set of 
+integers. Then the decision procedure of OSTRICH can be seamlessly 
+extended by replacing finite-state automata with ICRA. With this 
+extension, OSTRICH is then capable of solving string constraints 
+involving both the string and integer data types, i.e.  string 
+constraints that contain string length, indexof, and substring 
+functions, in addition to those operations already supported by the 
+current version of OSTRICH.
+  </div>
   </td>
   </td>
 </tr>
@@ -383,7 +461,26 @@
   <td>11:00-11:30</td>
   <td>
   Richard Mayr<br>
-<i>Simulation and Anti-chains for Automata</i><br>
+<i>Simulation and Anti-chains for Automata</i>
+  <button type="button" id="richard">Show abstract</button>
+  <br>
+  <div id="richard_abstract" style='display: none;'>
+Abstract:
+This talk gives an overview on techniques for solving computationally hard
+problems for nondeterministic automata: language inclusion/equivalence
+checking and automata minimization.
+We focus on nondeterministic Buchi automata and NFAs, but the techniques
+carry over to tree-automata.
+Some techniques use logical subsumption to narrow the search space for a
+counterexample: antichain methods and congruence base methods.
+Other techniques use generalized types of simulation preorders
+(multi-pebble and lookahead simulations) to manipulate automata,
+e.g., merging state, removing states/transitions or witnessing
+language inclusion outright.
+Finally, we'll discuss some open questions and challenges.
+A collection of current papers and tools is available at www.languageinclusion.org.
+See also https://lmcs.episciences.org/5189
+  </div>
   </td>
   </tr>
 <tr style="background-color:#dff0d8">
@@ -422,14 +519,33 @@
   <td>14:30-15:00</td>
   <td>
   Fang Yu / Roland Jiang<br>
-  <i>Solving String Constraints through Hardware Model Checking</i><br>
+  <i>Solving String Constraints through Hardware/Software Model Checking</i>
+  <button type="button" id="jiang">Show abstract</button>
+  <br>
+  <div id="jiang_abstract" style='display: none;'>
+  Abstract:
+  Strings with length constraints are prominent in software security analysis. In this talk, we will present logic circuit representation for (nondeterministic) finite automata to support various string and automata manipulation operations. It enables both counterexample generation and filter synthesis in string constraint solving. By using the new data structure, automata with large state spaces and/or alphabet sizes can be efficiently represented. The representation is further augmented with length encoding. By converting string and length constraints into a dependency graph of manipulations over length-encoded automata, a symbolic model checker for infinite state systems can be leveraged as an engine for the analysis of string and length constraints. Experiments show that the method has its unique capability of handling complex string and length constraints not solvable by other methods. 
+  </div>
   </td>
 </tr>
 <tr style="background-color:#dff0d8">
   <td>15:00-15:15</td>
   <td>
   Mitja Kulczynski<br>
-  <i>On Solving Word Equations Using SAT</i><br>
+  <i>On Solving Word Equations Using SAT</i>
+  <button type="button" id="mitja">Show abstract</button>
+  <br>
+  <div id="mitja_abstract" style='display: none;'>
+  Abstract:
+  We present Woorpje, a string solver for bounded word equations
+(i.e., equations where the length of each variable is upper bounded by a
+given integer). Our algorithm works by reformulating the satisfiability
+of bounded word equations as a reachability problem for nondeterministic
+finite automata, and then carefully encoding this as a propositional
+logic satisfiability problem, which we then solve using the well-known
+Glucose SAT-solver. This approach has the advantage of allowing for the
+natural inclusion of additional linear length constraints.
+  </div>
   </td>
 </tr>
 <tr style="background-color:#dff0d8">
@@ -537,5 +653,48 @@
 
     <p>© 2007 BiCi</p>
   </div><!-- End Footer -->
+
+    <script>
+  $(document).ready(function(){
+    $("#ruzica").click(function(){
+        $("#ruzica_abstract").toggle();
+    });
+
+    $("#corina").click(function(){
+        $("#corina_abstract").toggle();
+    });
+
+    $("#richard").click(function(){
+        $("#richard_abstract").toggle();
+    });
+
+    $("#jiang").click(function(){
+        $("#jiang_abstract").toggle();
+    });
+
+    $("#zhilin").click(function(){
+        $("#zhilin_abstract").toggle();
+    });
+
+    $("#mitja").click(function(){
+        $("#mitja_abstract").toggle();
+    });
+
+    $("#nestan").click(function(){
+        $("#nestan_abstract").toggle();
+    });
+
+    $("#artur").click(function(){
+        $("#artur_abstract").toggle();
+    });
+
+    $("#dima").click(function(){
+        $("#dima_abstract").toggle();
+    });
+  });
+
+
+    </script>
+
 </body>
 </html>
