@@ -263,7 +263,15 @@ The analysis focuses on the way the equation is stored and changed rather than o
   <td>15:30-16:00</td>
   <td>
   Diego Figueira<br>
-  <i>Boundedness Problems on Graph Databases</i><br>
+  <i>Synchronized word relations</i>
+  <button type="button" id="diego">Show abstract</button>
+  <br>
+  <div id="diego_abstract" style='display: none;'>
+      Abstract: 
+In this talk I will give an overview on a way of defining classes of word relations called Synchronized relations. This framework yields an infinite number of classes living within the well-studied class of Rational relations, among which we can find the classes Automatic, Recognizable, or length-preserving relations.
+
+A natural approach to defining binary word relations over a finite alphabet A is through two-tape finite state automata, which can be seen as regular languages L over the alphabet {1,2} x A, where (i,a) is interpreted as reading letter a from tape i. Thus, a word w of the language L denotes the pair (u_1,u_2) in A* x A* in which u_i is the projection of w onto i-labelled letters. While this formalism defines the well-studied class of Rational relations due to Nivat’s Theorem (a.k.a. non-deterministic finite state transducers), enforcing restrictions on the reading regime from the tapes, that we call synchronization, yields various sub-classes of relations. Such synchronization restrictions are imposed through regular properties on the projection of the language onto {1,2}. In this way, for each regular language C contained in {1,2}*, one obtains a class Rel(C) of relations. I will show some recent results on this collection of classes of relations, based on joint work with María Emilia Descotte, Santiago Figueira, Leonid Libkin, and Gabriele Puppis.
+  </div>
   </td>
 </tr>
 <tr style="background-color:#dff0d8">
@@ -690,6 +698,10 @@ natural inclusion of additional linear length constraints.
 
     $("#dima").click(function(){
         $("#dima_abstract").toggle();
+    });
+
+    $("#diego").click(function(){
+        $("#diego_abstract").toggle();
     });
   });
 
