@@ -227,7 +227,32 @@ The analysis focuses on the way the equation is stored and changed rather than o
   <td>11:30-12:00</td>
   <td>
   Matthew Hague / Zhilin Wu<br>
-<i>Strings in OSTRICH</i><br>
+<i>Generic and Complete Algorithms for Straight-Line String Constraints</i>
+  <button type="button" id="matt">Show abstract</button>
+  <br>
+  <div id="matt_abstract" style='display: none;'>
+      Abstract: Path-feasibility is an important problem in the symbolic 
+      execution of 
+string-manipulating programs. A symbolic path is given as a finite, 
+loop-free sequence of assertions and assignments and the task is to find 
+concrete instantiations of the symbolic variables that satisfy all 
+assertions along the path. If such instantiations are found, then the 
+path is feasible. Such a path may witness an error in the program being 
+analysed.
+
+Recent research has identified a number of string operations that can be 
+supported by path-feasibility algorithms. We contribute two semantic 
+conditions, which, if satisfied by the assertions and assignments in the 
+program, imply decidability of the path-feasibility problem. This 
+decidability is shown via a generic feasibility-checking algorithm.
+
+We have implemented this algorithm in a tool OSTRICH, which checks 
+satisfiability of straight-line string constraints (paths). We have 
+compared this tool with other leading solvers over a wide range of 
+popular benchmarks. OSTRICH is competitive on well-supported benchmarks, 
+while also increasing the expressivity and extensibility of the 
+string-constraints supported.
+  </div>
   </td>
   </tr>
 <tr style="background-color:#dff0d8">
@@ -720,6 +745,10 @@ natural inclusion of additional linear length constraints.
 
     $("#krishna").click(function(){
         $("#krishna_abstract").toggle();
+    });
+
+    $("#matt").click(function(){
+        $("#matt_abstract").toggle();
     });
   });
 
