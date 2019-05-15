@@ -99,7 +99,22 @@
   <td>10:30-11:30</td>
   <td>
   Andrew Reynolds / Cesare Tinelli<br>
-<i>SMT and CVC4 for Strings</i> (<a href="../slides/tinelli.pdf">Slides</a>)<br>
+<i>SMT and CVC4 for Strings</i> (<a href="../slides/tinelli.pdf">Slides</a>)
+  <button type="button" id="andrew">Show abstract</button>
+  <br>
+  <div id="andrew_abstract" style='display: none;'>
+      Abstract:
+In the past several years, Satisfiability Modulo Theories (SMT) solvers have
+been extended for reasoning about quantifier-free constraints in the theory of
+unbounded strings and regular expressions. Although decidability of this theory
+is unknown, many of these solvers are highly efficient for constraints that
+commonly occur in practice. This talk overviews the main algorithms used by
+the SMT solver CVC4 for handling string constraints. We focus on its core theory
+solver for strings, regular expressions and length constraints. We then
+cover its more advanced features, including its finite model finding strategy
+for strings of bounded length, context-dependent simplification for extended
+string functions and its support for regular expression elimination.
+  </div>
   </td>
   </tr>
 <tr style="background-color:#dff0d8">
@@ -188,7 +203,7 @@ I plan to discuss the role of constraint solving and model counting for string c
   <td style="width:70px;">9:00-10:00</td>
   <td>
   Artur Jez<br>
-  <i>On Recompression for Word Equations</i>
+  <i>On Recompression for Word Equations</i> (<a href="../slides/jez.pdf">Slides</a>)
   <button type="button" id="artur">Show abstract</button>
   <br>
   <div id="artur_abstract" style='display: none;'>
@@ -737,6 +752,10 @@ natural inclusion of additional linear length constraints.
 
     $("#corina").click(function(){
         $("#corina_abstract").toggle();
+    });
+
+    $("#andrew").click(function(){
+        $("#andrew_abstract").toggle();
     });
 
     $("#richard").click(function(){
