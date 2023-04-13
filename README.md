@@ -1,2 +1,2 @@
-# mosca19.github.io
-Page for MOSCA19 workshop
+# mosca2023.github.io
+Page for MOSCA23 workshop
