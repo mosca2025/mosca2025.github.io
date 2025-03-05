@@ -79,14 +79,14 @@ img {
 }
 
 #container { 
-	background: #ffffff repeat-y left  url(../images/sidebar_bg.png);
+	background: #ffffff repeat-y left;
 	width: 900px;
 	position: relative;
 	text-align: left;
 	z-index: 2;
 }
 
-#contentContainer #content {
+#content {
 	background: #ffffff;
 	line-height: 1.4em;
 	padding: 10px;
@@ -98,7 +98,7 @@ img {
 }
 
 #pageHeader {
-	height: 90px;
+	height: 60px;
 	border-top: 3px solid;
 }
 
