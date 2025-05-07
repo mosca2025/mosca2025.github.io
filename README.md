@@ -1,6 +1,9 @@
-22 July 2025 (Tuesday)
-CAV 2025
+## Date and Place
+22 July 2025 (Tuesday)\
+CAV 2025\
 Zagreb, Croatia
+
+## Description
 
 String is a basic data type in almost every programming language and has been widely used in many scenarios, especially web programming. String constraint solving is a classical topic in theoretical computer science. A seminal result is the decidability of the theory of word equations shown by Makanin in 1977. String constraint solving has received much more attention in the last decade, as a result of the momentum from formal verification of string-manipulating programs. Various string constraint solvers have been developed, e.g. Z3-str3, cvc5, Norn, Trau, Ostrich, and Z3-Noodler. Furthermore, various verification and testing tools, e.g. jDART for Java, Jalangi for Javascript, and PyExZ3 for Python, have been developed based on string constraint solvers.
 
@@ -12,9 +15,9 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 
 ## Organizers
 
-* Joel Day, Loughborough University, UK
-* Matthew Hague, Royal Holloway University of London, UK
-* Ondřej Lengál, Brno University of Technology, Czech Republic
+* [Joel Day](https://www.lboro.ac.uk/departments/compsci/staff/joel-day/), Loughborough University, UK
+* [Matthew Hague](https://www.cs.rhul.ac.uk/home/uxac009/), Royal Holloway University of London, UK
+* [Ondřej Lengál](https://www.fit.vut.cz/person/lengal/), Brno University of Technology, Czech Republic
 
 ## Program
 
