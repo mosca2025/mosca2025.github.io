@@ -1,9 +1,3 @@
----
-title: MOSCA'25
-subtitle: Meeting on String Constraints and Applications 2025
----
-
-## Date and Place
 22 July 2025 (Tuesday)\
 [CAV 2025](https://conferences.i-cav.org/2025/)\
 Zagreb, Croatia
