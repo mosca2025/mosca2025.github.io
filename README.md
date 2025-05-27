@@ -19,6 +19,20 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 * [Matthew Hague](https://www.cs.rhul.ac.uk/home/uxac009/), Royal Holloway University of London, UK
 * [Ondřej Lengál](https://www.fit.vut.cz/person/lengal/), Brno University of Technology, Czech Republic
 
+## Talk Proposals
+
+We are soliciting talk proposals.  Please send your talk proposal (name, title, short abstract) to [lengal@fit.vut.cz](mailto:lengal@fit.vut.cz) by **20 June 2025**.
+
+## Confirmed Speakers (alphabetical)
+
+* Rachel Cleaveland (Stanford University)
+* Vojtěch Havlena (Brno University of Technology)
+* Michal Hečko (Brno University of Technology)
+* John Zhengyang Lu (University of Waterloo)
+* Oliver Markgraf (RPTU Kaiserslautern)
+* Margus Veanes (Microsoft)
+* Georg Zetzsche (MPI-SWS)
+
 ## Program
 
 TBA
