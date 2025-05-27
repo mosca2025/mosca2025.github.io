@@ -26,6 +26,7 @@ We are soliciting talk proposals.  Please send your talk proposal (name, title, 
 ## Confirmed Speakers (alphabetical)
 
 * Rachel Cleaveland (Stanford University)
+* Dominik D. Freydenberger (Loughborough University)
 * Vojtěch Havlena (Brno University of Technology)
 * Michal Hečko (Brno University of Technology)
 * John Zhengyang Lu (University of Waterloo)
