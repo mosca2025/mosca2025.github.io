@@ -19,10 +19,6 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 * [Matthew Hague](https://www.cs.rhul.ac.uk/home/uxac009/), Royal Holloway University of London, UK
 * [Ondřej Lengál](https://www.fit.vut.cz/person/lengal/), Brno University of Technology, Czech Republic
 
-## Talk Proposals
-
-We are soliciting short talk proposals.  Please send your talk proposal (name, title, short abstract) to [lengal@fit.vut.cz](mailto:lengal@fit.vut.cz) by **20 June 2025**.
-
 ## Confirmed Speakers (alphabetical)
 
 * Rachel Cleaveland (Stanford University)
@@ -45,3 +41,49 @@ Unska ul. 3\
 Zagreb, Croatia
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5563.0873365271955!2d15.971377299999999!3d45.8003692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d6f150cf2ccd%3A0x739e5c279fd98531!2sFaculty%20of%20Electrical%20Engineering%20and%20Computing!5e0!3m2!1sen!2sus!4v1743628327445!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+## Talk Abstracts
+
+### Rachel Cleaveland (Stanford University) --- Incorporating Native String Reasoning in Symbolic Execution of C Programs
+Symbolic execution is a powerful program analysis technique that explores new paths through a program by generating inputs that are guaranteed to exercise these paths. However, there is a lack of modern research on symbolic execution for programs that manipulate string data. Existing engines for string-manipulating programs suffer from two major drawbacks. First, these existing tools only execute Java programs, leaving the topic of symbolic execution for string-manipulating programs in languages like C unstudied. Second, most of these tools implement bespoke string solvers that are not under active development, and therefore do not integrate the vast improvements to string solvers that we have seen in the past decade.
+Due to these drawbacks in prior work, we develop a tool called SymCC-STR to symbolically execute C programs that operate on strings. SymCC-STR is built on top of the concolic execution engine SymCC and uses the smt-switch SMT solving API in the backend, so it makes use of modern advancements in both symbolic execution and string solving.
+SymCC-STR implements a novel hybrid data representation, expressing symbolic data both as SMT bitvectors and as SMT strings in order to balance the performance and expressivity of these respective theories. While SymCC-STR is still under active development, preliminary results from symbolically executing real-world programs indicate that SymCC-STR is able to cover branches that previous methods miss.
+
+### Dominik D. Freydenberger (Loughborough University) --- Finite Models for the Theory of Concatenation
+Word equations are one of the most natural and intuitive models in theoretical computer science. A (still quite) natural next step is combining word equations with first-order logic. The resulting theory of concatenation is elegant; sadly, its satisfiability problem is undecidable. 
+
+If we assume that the universe is not the set of all strings over a given alphabet, but instead one string and all its factors, we get a meaningful distinction between satisfiability and model checking. While the former remains undecidable, the latter is not only decidable, but can be made tractable by building on techniques from finite model theory.
+
+This talk aims to give a short introduction to this approach, including applications to regular expressions with back-references.
+
+### Vojtěch Havlena (Brno University of Technology) --- TBD
+
+TBD
+
+### Michal Hečko (Brno University of Technology) --- TBD
+
+TBD
+
+### John Zhengyang Lu (University of Waterloo) --- Monte Carlo Tree Search for SMT Strategy Synthesis with Applications to String Constraints
+
+Z3 allows users to customize strategies to improve performance on their specific use cases. However, manually designing an optimized strategy for a given class of SMT instances remains a complex and demanding task. Recently, we proposed Z3alpha, a method based on Monte Carlo Tree Search (MCTS) to automate SMT strategy synthesis. Z3alpha has demonstrated strong performance on some challenging logics such as QF_NIA and QF_NRA. In this talk, we will present the core ideas behind Z3alpha and highlight its application to string constraints. We will also discuss the insights it provides, such as identifying which strategies work best for different families of string problems.
+
+### Oliver Markgraf (RPTU Kaiserslautern) --- Solving String Constraints via Regular Constraint Propagation
+
+String constraints appear widely in program analysis and security applications, yet solving them efficiently remains a challenge due to the complexity of string operations. In this talk, I will present Regular Constraint Propagation (RCP), a lightweight and generic approach for solving such constraints. RCP infers information by computing pre- and post-images of regular languages under string functions like concatenation and replace, enabling propagation through complex constraints. I will outline the key ideas behind RCP, demonstrate its theoretical guarantees, and show how it is implemented in the OSTRICH solver. Experimental results highlight that RCP not only broadens the solver’s applicability but also improves performance—especially on random PCP and bioinformatics benchmarks. The talk will focus on the intuition, algorithmic structure, and practical impact of RCP. This is joint work with Matthew Hague, Artur Jeż, Anthony Widjaja Lin and Philipp Rümmer.
+
+### Margus Veanes (Microsoft) --- Theory and Applications of Symbolic Derivatives for ERE
+
+The aim of this talk is to explain the theory and the algorithmic principles behind the theory of
+symbolic derivatives of extended regular expressions (ERE) and how they can benefit matching and constraint solving.
+The focus will be on how the theory efficiently supports,  in addition to the classical operators,
+also complement, intersection and a restricted form of regex lookarounds.
+In the latter case using span semantics that generalizes language semantics. As concrete examples of
+applications of the theory, I will talk about: ERE matching, Guidance of LLM tokenization, and ERE constraint solving in SMT.
+If time permits, I will also cover some aspects of using the theory for omega-regularity,
+where derivatives are taken relative to stream (infinite word) semantics.
+
+### Georg Zetzsche (MPI-SWS) --- TBD
+
+TBD
+
