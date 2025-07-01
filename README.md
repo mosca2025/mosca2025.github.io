@@ -30,9 +30,9 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 * Margus Veanes (Microsoft)
 * Georg Zetzsche (MPI-SWS)
 
-## Program
+## Programme
 
-| Time                 | Program   |
+| Time                 | Programme   |
 |:--------------------:|-----------|
 | <span style="color:green">8:30</span>    | <span style="color:green">🥞Breakfast🥞</span> |
 | 9:00   | TBD (Georg Zetzsche) |
@@ -47,6 +47,7 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 | 16:00 | Incorporating Native String Reasoning in Symbolic s Execution of C Programs (Rachel Cleaveland) |
 | 16:30 | Z3-Noodler 1.3: Shepherding Decision Procedures (Vojtěch Havlena) |
 | 17:00 | <span style="color:red">reserve<span> |
+| 17:30 | end of programme |
 
 
 ## Venue
