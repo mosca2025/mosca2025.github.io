@@ -41,7 +41,7 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 | 11:00 | Solving String Constraints via Regular Constraint Propagation (Oliver Markgraf) |
 | 11:30 | Monte Carlo Tree Search for SMT Strategy Synthesis with Applications to String Constraints (John Zhengyang Lu) |
 | <span style="color:green">12:00</span> | <span style="color:green">🥗Lunch🥗</span> |
-| 14:00 | TBD (Michal Hečko) |
+| 14:00 | Handling Position Constraints Uniformly Including the Negated Containment (Michal Hečko) |
 | 14:45 | Theory and Applications of Symbolic Derivatives for ERE (Margus Veanes) |
 | <span style="color:green">15:30</span> | <span style="color:green">☕️Coffee break☕️</span> |
 | 16:00 | Incorporating Native String Reasoning in Symbolic s Execution of C Programs (Rachel Cleaveland) |
@@ -75,7 +75,7 @@ This talk aims to give a short introduction to this approach, including applicat
 ### Vojtěch Havlena (Brno University of Technology) --- Z3-Noodler 1.3: Shepherding Decision Procedures
 Z3-Noodler is a fork of the Z3 SMT solver replacing its string theory implementation with a portfolio of decision procedures and a selection mechanism for choosing among them based on the features of the input formula. In this talk, I will give an overview of the used decision procedures, important heuristics, and their integration into a robust solver with a good overall performance, as witnessed by Z3-Noodler winning the string division of SMT-COMP'24.
 
-### Michal Hečko (Brno University of Technology) --- TBD
+### Michal Hečko (Brno University of Technology) --- Handling Position Constraints Uniformly Including the Negated Containment
 I will present a novel approach to solving the so-called position predicates in combination with regular constraints restricting the language of variables. Position predicates, e.g., string disequation, NotPrefix, NotSuffix, etc., are a large set of practically-relevant string constraints whose satisfiability witness is an interesting position(s) within strings assigned to variables. Our approach provides a uniform framework for these predicates that tightly integrates their semantics with a symbolic description of runs of automata associated with the string variables, resulting in a reduction to quantifier-free linear integer arithmetic. I will give a gradual exposition of the key ideas powering the reduction, allowing us to avoid exponential blow-up and to show that the entire examined fragment of string logic is NP-complete. In the case of only a single position constraint, we give a decision procedure that works in PTime. We implemented the approach in the string solver Z3-Noodler, showing the practicality of our approach in the presence of word equations that allow monadic decomposition, i.e., the chain-free fragment.
 In the second part of my talk, I will focus on the negated string containment predicate and provide a positive answer to its decidability, which was, for a long time, an open problem. The semantics of the negated string containment include universal quantification, making the problem intractable by reducing it to word equations and placing it on the boundary of decidability. The exposition of our proof starts with why and when our uniform approach to position constraints can provide a decision procedure. I will then provide a high-level intuition behind two key theorems based on combinatorics on words that power our result, while aiming at keeping the exposition informal and approachable. Finally, I will discuss future directions of our work.
 
