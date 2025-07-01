@@ -56,9 +56,9 @@ If we assume that the universe is not the set of all strings over a given alphab
 
 This talk aims to give a short introduction to this approach, including applications to regular expressions with back-references.
 
-### Vojtěch Havlena (Brno University of Technology) --- TBD
+### Vojtěch Havlena (Brno University of Technology) --- Z3-Noodler 1.3: Shepherding Decision Procedures
 
-TBD
+Z3-Noodler is a fork of the Z3 SMT solver replacing its string theory implementation with a portfolio of decision procedures and a selection mechanism for choosing among them based on the features of the input formula. In this talk, we give an overview of the used decision procedures, important heuristics, and their integration into a robust solver with a good overall performance, as witnessed by Z3-Noodler winning the string division of SMT-COMP'24.
 
 ### Michal Hečko (Brno University of Technology) --- TBD
 
