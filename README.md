@@ -35,7 +35,7 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 | Time                 | Programme   |
 |:--------------------:|-----------|
 | <span style="color:green">8:30</span>    | <span style="color:green">🥞Breakfast🥞</span> |
-| 9:00   | TBD (Georg Zetzsche) |
+| 9:00   | Slice closures of indexed languages and word equations with counting constraints (Georg Zetzsche) |
 | 9:45   | Finite Models for the Theory of Concatenation (Dominik D. Freydenberger)      |
 | <span style="color:green">10:30</span>  |  <span style="color:green">☕️Coffee break☕️</span> |
 | 11:00 | Solving String Constraints via Regular Constraint Propagation (Oliver Markgraf) |
@@ -95,7 +95,14 @@ applications of the theory, I will talk about: ERE matching, Guidance of LLM tok
 If time permits, I will also cover some aspects of using the theory for omega-regularity,
 where derivatives are taken relative to stream (infinite word) semantics.
 
-### Georg Zetzsche (MPI-SWS) --- TBD
+### Georg Zetzsche (MPI-SWS) --- Slice closures of indexed languages and word equations with counting constraints
+Indexed languages are a classical notion in formal language theory. As the language equivalent of second-order pushdown automata, they have received considerable attention in higher-order model checking. Unfortunately, counting properties are notoriously difficult to decide for indexed languages: So far, all results about non-regular counting properties show undecidability.
 
-TBD
+In this paper, we initiate the study of slice closures of (Parikh images of) indexed languages. A slice is a set of vectors of natural numbers such that membership of u,u+v,u+w implies membership of u+v+w. Our main result is that given an indexed language L, one can compute a semilinear representation of the smallest slice containing L's Parikh image.
+
+We present two applications. First, one can compute the set of all affine relations satisfied by the Parikh image of an indexed language. In particular, this answers affirmatively a question by Kobayashi: Is it decidable whether in a given indexed language, every word has the same number of a's as b's.
+
+As a second application, we show decidability of (systems of) word equations with rational constraints and a class of counting constraints: These allow us to look for solutions where a counting function (defined by an automaton) is not zero. For example, one can decide whether a word equation with rational constraints has a solution where the number of occurrences of a differs between variables X and Y.
+
+The talk is based on joint work with Laura Ciobanu and has appeared at LICS 2024.
 
