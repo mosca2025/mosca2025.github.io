@@ -44,7 +44,7 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 | 14:00 | Handling Position Constraints Uniformly Including the Negated Containment (Michal Hečko) |
 | 14:45 | Theory and Applications of Symbolic Derivatives for ERE (Margus Veanes) |
 | <span style="color:green">15:30</span> | <span style="color:green">☕️Coffee break☕️</span> |
-| 16:00 | Incorporating Native String Reasoning in Symbolic s Execution of C Programs (Rachel Cleaveland) |
+| 16:00 | Incorporating Native String Reasoning in Symbolic Execution of C Programs (Rachel Cleaveland) |
 | 16:30 | Z3-Noodler 1.3: Shepherding Decision Procedures (Vojtěch Havlena) |
 | 17:00 | <span style="color:red">reserve<span> |
 | 17:30 | end of programme |
