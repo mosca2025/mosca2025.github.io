@@ -36,15 +36,15 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 |:--------------------:|-----------|
 | <span style="color:green">8:30</span>    | <span style="color:green">🥞Breakfast🥞</span> |
 | 9:00   | [Slice closures of indexed languages and word equations with counting constraints](https://github.com/mosca2025/mosca2025.github.io/raw/master/slides/mosca25-georg-zetzsche.pdf) (Georg Zetzsche) |
-| 9:45   | Finite Models for the Theory of Concatenation (Dominik D. Freydenberger)      |
+| 9:45   | [Finite Models for the Theory of Concatenation](https://github.com/mosca2025/mosca2025.github.io/raw/master/slides/mosca25-dominik-freydenberger.pdf) (Dominik D. Freydenberger)      |
 | <span style="color:green">10:30</span>  |  <span style="color:green">☕️Coffee break☕️</span> |
-| 11:00 | Solving String Constraints via Regular Constraint Propagation (Oliver Markgraf) |
+| 11:00 | [Solving String Constraints via Regular Constraint Propagation](https://github.com/mosca2025/mosca2025.github.io/raw/master/slides/mosca25-oliver-markgraf.pdf) (Oliver Markgraf) |
 | 11:30 | Monte Carlo Tree Search for SMT Strategy Synthesis with Applications to String Constraints (John Zhengyang Lu) |
 | <span style="color:green">12:00</span> | <span style="color:green">🥗Lunch🥗</span> |
 | 14:00 | Handling Position Constraints Uniformly Including the Negated Containment (Michal Hečko) |
 | 14:45 | Theory and Applications of Symbolic Derivatives for ERE (Margus Veanes) |
 | <span style="color:green">15:30</span> | <span style="color:green">☕️Coffee break☕️</span> |
-| 16:00 | Incorporating Native String Reasoning in Symbolic Execution of C Programs (Rachel Cleaveland) |
+| 16:00 | [Incorporating Native String Reasoning in Symbolic Execution of C Programs](mosca25-rachel-cleaveland.pdf) (Rachel Cleaveland) |
 | 16:30 | Z3-Noodler 1.3: Shepherding Decision Procedures (Vojtěch Havlena) |
 | 17:00 | <span style="color:red">reserve<span> |
 | 17:30 | end of programme |
