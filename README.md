@@ -39,7 +39,7 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 | 9:45   | [Finite Models for the Theory of Concatenation](https://github.com/mosca2025/mosca2025.github.io/raw/master/slides/mosca25-dominik-freydenberger.pdf) (Dominik D. Freydenberger)      |
 | <span style="color:green">10:30</span>  |  <span style="color:green">☕️Coffee break☕️</span> |
 | 11:00 | [Solving String Constraints via Regular Constraint Propagation](https://github.com/mosca2025/mosca2025.github.io/raw/master/slides/mosca25-oliver-markgraf.pdf) (Oliver Markgraf) |
-| 11:30 | Monte Carlo Tree Search for SMT Strategy Synthesis with Applications to String Constraints (John Zhengyang Lu) |
+| 11:30 | [Monte Carlo Tree Search for SMT Strategy Synthesis with Applications to String Constraints](https://github.com/mosca2025/mosca2025.github.io/raw/master/slides/mosca25-john-lu.pptx) (John Zhengyang Lu) |
 | <span style="color:green">12:00</span> | <span style="color:green">🥗Lunch🥗</span> |
 | 14:00 | Handling Position Constraints Uniformly Including the Negated Containment (Michal Hečko) |
 | 14:45 | Theory and Applications of Symbolic Derivatives for ERE (Margus Veanes) |
