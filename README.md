@@ -34,7 +34,6 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 
 | Time                 | Programme   |
 |:--------------------:|-----------|
-<!-- | <span style="color:green">8:30</span>    | <span style="color:green">🥞Breakfast🥞</span> | -->
 | 9:00   | [Slice closures of indexed languages and word equations with counting constraints](https://github.com/mosca2025/mosca2025.github.io/raw/master/slides/mosca25-georg-zetzsche.pdf) (Georg Zetzsche) |
 | 9:45   | [Finite Models for the Theory of Concatenation](https://github.com/mosca2025/mosca2025.github.io/raw/master/slides/mosca25-dominik-freydenberger.pdf) (Dominik D. Freydenberger)      |
 | <span style="color:green">10:30</span>  |  <span style="color:green">☕️Coffee break☕️</span> |
