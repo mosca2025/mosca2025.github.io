@@ -45,7 +45,7 @@ This workshop can be seen as a follow-up workshop of [MOSCA 2019](https://mosca1
 | 14:45 | Theory and Applications of Symbolic Derivatives for ERE (Margus Veanes) |
 | <span style="color:green">15:30</span> | <span style="color:green">☕️Coffee break☕️</span> |
 | 16:00 | [Incorporating Native String Reasoning in Symbolic Execution of C Programs](https://github.com/mosca2025/mosca2025.github.io/raw/master/slides/mosca25-rachel-cleaveland.pdf) (Rachel Cleaveland) |
-| 16:30 | Z3-Noodler 1.3: Shepherding Decision Procedures (Vojtěch Havlena) |
+| 16:30 | [Z3-Noodler 1.3: Shepherding Decision Procedures](https://github.com/mosca2025/mosca2025.github.io/raw/master/slides/mosca25-vojtech-havlena.pdf) (Vojtěch Havlena) |
 | 17:00 | <span style="color:red">reserve<span> |
 | 17:30 | end of programme |
 
